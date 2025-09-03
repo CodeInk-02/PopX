@@ -1,0 +1,62 @@
+.account-container .container{
+  height: 95vh;
+  max-width: 30rem;
+  margin: 1rem auto;
+  background-color: #f8f8f8;
+  border: 2px solid #aca9a9;
+  padding: 0;
+  border-radius: 0;
+}
+.account-container .container .top{
+  background-color: white;
+  width: 100%;
+  padding: 1rem 1rem;
+}
+.account-container .container .top h1{
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.account-container .container .bottom{
+  padding: 2rem 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.account-container .container .bottom .img{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  /* overflow: hidden; */
+   position: relative;
+ 
+} 
+.account-container .container .bottom .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+ 
+}
+.account-container .container .bottom .img .icons{
+  position: absolute;
+  font-size: 1.6rem;
+  background-color: blue;
+  padding: 4px;
+  border-radius: 50%;
+  color: white;
+  right: 5px;
+  bottom: 5px;
+  
+}
+.account-container.container .bottom h2{
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.account-container .container .bottom p{
+  font-size: 1.2rem;
+ 
+}
+.account-container .container .text{
+  padding: 1rem;
+  font-size: 1.4rem;
+   border-bottom: 2px dotted #aca9a9;
+   padding-bottom: 2rem;
+}

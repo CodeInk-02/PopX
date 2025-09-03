@@ -1,0 +1,67 @@
+.signup-container{
+  height: 98vh;
+  max-width: 30rem;
+  margin: 1rem auto;
+  padding: 1rem 1rem;
+  background-color: #f8f8f8;
+  border-radius: 1rem;
+}
+.signup-container h1{
+  font-size: 2.4rem;
+  width: 200px;
+  margin: 2.5rem 0 2.5rem;
+}
+.option-box{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.option-box span{
+  display: flex;
+  gap: 1rem;
+}
+.option-box span label,.option-box span input {
+  margin: 5px;
+}
+.signup-container .input-container{
+  margin-top: 2rem;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+.signup-container .input-container .input{
+  position: relative;
+}
+.signup-container .input-container .input input{
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  width: 100%;
+  border: 2px solid #cdd3d3;
+  border-radius: 0.6rem;
+ background-color: #f8f8f8;;
+}
+.signup-container .input-container .input input:focus{
+  outline: none;
+  border: 1px solid blue;
+}
+.signup-container .input-container .input span{
+  background-color: #f8f8f8;;
+  font-size: 1.2rem;
+  padding: 0 4px;
+  color: blue;
+  position: absolute;
+  left: 5px;
+  top: -40%!important;
+ 
+}
+.signup-container .input-container .input span sup{
+  color: red;
+  font-size: 1.6rem;
+}
+.signup-container .input-container button{
+  padding: 1rem 0;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}

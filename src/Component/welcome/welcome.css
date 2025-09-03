@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+.welcome-container{
+  height: 98vh;
+}
+.mid-container{
+  margin: 1rem auto;
+  background-color: rgb(247, 249, 250);
+  height: 100%;
+  min-width: 30rem;
+  max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem 1.6rem;
+  border: 1px solid purple;
+  border-radius: 1rem;
+}
+.wel-container .message{
+  width: 250px;
+}
+.wel-container .message h1{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.wel-container .message p{
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  color: #c1c1c1;
+}
+.wel-container .btn{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.wel-container .btn .nav-links{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.2rem 0;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+}
+.wel-container .btn .nav-links:first-child{
+  background-color: rgb(110, 38, 255);
+  color: white;
+}
+.wel-container .btn .nav-links:last-child{
+  background-color:rgb(204, 185, 250);
+}
