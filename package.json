@@ -2,7 +2,7 @@
   "name": "login",
   "private": true,
   "version": "0.0.0",
-   "homepage": "https://CodeInk-02.github.io/PopX",
+   "homepage": "https://CodeInk-02.github.io/PopX/",
   "type": "module",
   "scripts": {
     "dev": "vite",
